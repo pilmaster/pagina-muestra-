@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Componentes</title>
+  </head>
+  <head>
+    <!--Import Google Icon Font-->
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav class="nav-extended">
+  <div class="nav-wrapper  grey darken-4">
+    <a href="file:///C:/EFO-WEB/index.html" class="brand-logo"> E.F.O </a>
+    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="sass.htm"><i class="material-icons left">contact_phone</i>Te 3764-702052</a></li>
+      <li><a href="badges.html"><i class="material-icons left">mail_outline</i> E-Mail </a></li>
+      <li><a href="collapsible.html"><i class="material-icons left ">library_books</i> Catalogo</a></li>
+    </ul>
+    <ul class="side-nav" id="mobile-demo">
+      <li><a href="sass.html">telefono</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+
+  </div>
+    <div class="nav-content z-depth-2 teal ">
+      <ul class="tabs tabs-transparent">
+        <li class="tab col s2">
+    <a target="_self" href="index.html">Home</a>
+  </li>
+  <li class="tab col s2">
+    <a target="_self" href="Componentes.html">Component</a>
+  </li>
+  <li class="tab col s2">
+    <a target="_self" href="motores-motoreductores.html">Motores-Motoreducotores</a>
+  </li>
+  <li class="tab col s2">
+    <a target="_self" href="fotos-videos.html">Fotos-Videos</a>
+  </li>
+  <li class="tab col s2">
+    <a target="_self" href="contacto.html">Contacto</a>
+  </li>
+
+
+      </ul>
+  </div>
+</nav>
+
+
+
+
+  <div class="row">
+    <div class="card-panel z-depth-3 grey lighten-4 l6">
+
+       <div class="carousel">
+
+
+
+         <a class="carousel-item  z-depth-4 grey lighten-4" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
+
+         <a class="carousel-item  z-depth-5 grey lighten-4" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+         <a class="carousel-item  z-depth-5 grey lighten-4" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+         <a class="carousel-item  z-depth-5 grey lighten-4" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+         <a class="carousel-item  z-depth-5 grey lighten-4" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+
+      </div>
+   </div>
+
+  </div>
+<!--footer-->
+
+<footer class="page-footer z-depth-3  grey darken-4 fixed">
+<div class="container-fluid">
+<div class="row">
+<div class="col s4 "
+<img src="img/efo-logo.jpg" alt="">
+</div>
+</div>
+<div class="footer-copyright z-depth-3  teal">
+<div class="container ">
+© 2017 Copyright Pier Angelo Carrasco
+<a class="grey-text text-lighten-4 right" href="#!"></a>
+
+</div>
+</div>
+</footer>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script>
+  $(document).ready(function(){
+
+    $('.carousel').carousel();
+    $(".button-collapse").sideNav();
+
+    $('ul.tabs').tabs();
+    $('.materialboxed').materialbox();
+    $('.slider').slider();
+
+// Next slide
+$('.slider').slider('next');
+
+
+  });
+
+</script>
+
+  </body>
+
+</html>
